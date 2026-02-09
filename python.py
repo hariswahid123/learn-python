@@ -1,3 +1,5 @@
+ 
+#! There is a Python book in my repository. Download it to make learning Python easier.
 
 #! Naming Conventions
 
@@ -498,6 +500,126 @@
 #! Loops
 
 #? Loops in python 
+#*  Loops in Python allow us to execute a block of code multiple times without rewriting it. 
+
+#? Types of loops 
+#* There are 2 types of loops in python. For and While loop.
+
+#? Intuition of loops
+
+#? For loop 
+#* In first scenario you know the number of mugs to transfer from one bucket to another.
+#* Here you know how many numbers of iteration you have to go through, like you have to transfer only 4 mugs.
+#* So when you know the number of iterations you will use a FOR loop.
+
+#? while loop
+#* In the second scenario, you don't know how many mugs you need to transfer, but you do know the condition that determines when to stop.
+#* So when you don’t know how many iteration you have to use but you know a condition that determines when to stop you will use loop.
+
+#! For loop 
+
+#? normal loop 
+
+# for i in range( 1 , 21 , 1):
+#     print(i)
+
+#? create loop 20 to 50 
+
+# for loop in range(20 , 51 , 1):
+#     print(loop)
+
+#? create loop -1 to -16 
+
+# for loop in range(-1 , -16 , -1):
+#     print(loop)
+
+#? create loop 16 to 0
+
+# for loop in range( 16 , 0 , -1):
+#     print(loop)
+
+#? create table in loop 
+
+# n = int(input("which table you want? "))
+
+# for table in range( n , (n*10)+1 , n):
+#     print(table)
+
+#? lenght in loop 
+
+# name = input("enter your name ")
+
+# for loop in range(len(name)):
+#     print(name[loop])
+
+#? Iterating directly over the string in loop
+
+# name = input("enter your name ")
+
+# for loop in name:
+#     print(loop)
+
+#? break in loop
+
+# for i in range(1,21):
+#     if i == 15:
+#         break  
+#     else:
+#         print(i)
+   
+    
+#? continue in loop
+
+# for i in range(1,21):
+#     if i == 15:
+#         continue  
+#     else:
+#         print(i)
+
+#? For Loop questions 
+
+#* Q1 
+
+# num = int(input("please tell your number "))
+
+# for i in range(num):
+#     print("hello world ")
+
+#* Q2
+
+# num = int(input("please tell your number "))
+
+# for i in range(1,num+1):
+#     print(i)
+
+#* Q3
+
+# num = int(input("please tell your number "))
+
+# for i in range(num,0,-1):
+#     print(i)
+
+#* Q4 
+
+# num = int(input("please tell your number "))
+
+# for table in range(1,11):
+#     print(f"{num} * {table} = {num*table}")
+
+#* Q5
+
+# num = int(input("please tell your number "))
+# sum = 0
+
+# for i in range(1,num+1):
+#     sum += i
+
+# print(f"your sum is {sum}")
+
+#* Q6
+
+
+
 
 
 
