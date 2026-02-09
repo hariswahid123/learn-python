@@ -1,5 +1,5 @@
  
-#! There is a Python book in my repository. Download it to make learning Python easier.
+#! The Python book link is in the python.txt file. Go there and download the book. This book is free.
 
 #! Naming Conventions
 
