@@ -713,7 +713,19 @@
 
 # print(f"your digits are {digit}" )
 # print(f"your character are {char}" )
-# print(f"your special character are {specialChar}" )
+# print(f"your special character are {specialChar}" ) 
+
+#! While loop 
+
+# The while loop repeats a block of code as long as a condition is True.
+# It is useful when the number of iterations is unknown before execution.
+
+#? example
+
+
+
+
+
 
 
 
