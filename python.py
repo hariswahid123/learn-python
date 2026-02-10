@@ -618,15 +618,102 @@
 
 #* Q6
 
+# num = int(input("please tell your number "))
+# multiply = 1
 
+# for i in range(1,num+1):
+#     multiply =  multiply * i
 
+# print(f"your multiply is {multiply}")
 
+#* Q7
 
+# num = int(input("please tell your number "))
+# even = 0
+# odd = 0
 
+# for i in range(1,num+1):
+#     if i%2 == 0:
+#         even += i
+#     else:
+#         odd += i
 
+# print(f"your even and odd sum are {even} , {odd}")            
 
+#* Q8
 
+# num = int(input("please tell your number "))
 
+# for i in range(1,num+1):
+#     if num%i == 0:
+#         print(i)
+
+#* Q9 
+
+# num = int(input("check your number is perfect or not "))
+# sum = 0
+
+# for i in range(1,num):
+#     if num%i == 0:
+#         sum += i
+        
+# if sum == num:
+#     print("your number is perfect")
+# else:
+#     print("your number is not perfect")
+
+#* Q10 
+
+# num = int(input("check your number is prime or not "))
+# count = 0
+
+# for i in range(1,num+1):
+#     if num%i == 0:
+#         count += 1
+
+# if count == 2:
+#     print("your number is prime ")
+# else:
+#     print("your number is not prime ")   
+
+#* Q11
+
+# name = input("what is your name ")
+
+# for i in range(len(name)-1,-1,-1):
+#     print(name[i])
+
+#* Q12
+
+# str = input("Check your string is Pallindrome or not ")
+# reverseName = ""
+
+# for i in range(len(str)-1,-1,-1):
+#     reverseName  += str[i]
+
+# if reverseName == str:
+#     print("your string is Pallindrome")
+# else:
+#     print("your string is not Pallindrome")
+
+#* Q13
+
+# a = input("please tell a string ") 
+# char = 0
+# specialChar = 0 
+# digit = 0
+
+# for i in a:
+#     if i.isdigit():
+#         digit += 1
+#     elif i.isalpha():
+#         char += 1 
+#     else:
+#         specialChar += 1      
+
+# print(f"your digits are {digit}" )
+# print(f"your character are {char}" )
+# print(f"your special character are {specialChar}" )
 
 
 
