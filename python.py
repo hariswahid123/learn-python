@@ -769,28 +769,28 @@
 
 #? random number guessing game  
 
-import random
+# import random
 
-generateNumber = random.randint(1,10)
-tries = 0
+# generateNumber = random.randint(1,10)
+# tries = 0
 
-while True:
+# while True:
 
-    guess = int(input("please guess your number "))
+#     guess = int(input("please guess your number "))
 
-    if generateNumber == guess:
-        print(f"you won you guessed the number in {tries} tries")
-        tries += 1
-        break
-    elif guess > generateNumber:
-        print("go a little lower")
-        tries += 1
-    elif guess < generateNumber:
-        print("go a little higher")
-        tries += 1    
-    else:
-        print("you lose")
-        tries += 1        
+#     if generateNumber == guess:
+#         print(f"you won you guessed the number in {tries} tries")
+#         tries += 1
+#         break
+#     elif guess > generateNumber:
+#         print("go a little lower")
+#         tries += 1
+#     elif guess < generateNumber:
+#         print("go a little higher")
+#         tries += 1    
+#     else:
+#         print("you lose")
+#         tries += 1        
 
 
 
