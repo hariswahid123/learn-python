@@ -722,7 +722,75 @@
 
 #? example
 
+# a = 1
 
+# while a <= 30:
+#     print(a)
+#     a += 1  
+
+#? While loop questions
+
+#* Q1
+
+# num = int(input("please tell your number "))
+
+# while num > 0:
+#     print(num % 10)
+#     num //= 10
+
+#* Q2
+
+# num = int(input("please tell your number "))
+
+# reverse = 0
+
+# while num > 0:
+#     reverse = reverse * 10 + num % 10
+#     num //= 10
+
+# print(reverse)
+
+#* Q3
+
+# num = int(input("Check your number is Pallindrome or not "))
+# reverse = 0
+# copyNum = num
+
+# while num > 0:
+#     reverse = reverse * 10 + num % 10
+#     num //= 10
+
+# if copyNum == reverse:
+#     print("your number is Pallindrome")
+# else:
+#     print("your number is not Pallindrome")    
+
+#* Q4
+
+#? random number guessing game  
+
+import random
+
+generateNumber = random.randint(1,10)
+tries = 0
+
+while True:
+
+    guess = int(input("please guess your number "))
+
+    if generateNumber == guess:
+        print(f"you won you guessed the number in {tries} tries")
+        tries += 1
+        break
+    elif guess > generateNumber:
+        print("go a little lower")
+        tries += 1
+    elif guess < generateNumber:
+        print("go a little higher")
+        tries += 1    
+    else:
+        print("you lose")
+        tries += 1        
 
 
 
