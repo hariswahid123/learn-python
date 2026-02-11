@@ -518,7 +518,7 @@
 
 #! For loop 
 
-#? normal loop 
+#? example 
 
 # for i in range( 1 , 21 , 1):
 #     print(i)
@@ -791,6 +791,43 @@
 #     else:
 #         print("you lose")
 #         tries += 1        
+
+#! Functions
+
+#? What are functions 
+#* Functions in Python group reusable code into a block that can be executed by calling the function name.
+#* This helps avoid repetition and makes programs modular and readable.
+
+#? example
+
+# def hello():
+#     print("hello world")
+
+# hello()
+
+#? Functions parameters and arguments 
+#* First thing I want to talk about is parameters, parameters are variables listed inside 
+#* the function definition. 
+
+#* Arguments are the Values passed to a function when it is called.
+
+#? example 
+
+def sum(a,b): #* a , b is a parameter
+   ans = a + b
+   print(f"the sum of  your number is {ans}") 
+
+sum(3,4) #* 3 , 4 is an argument
+
+
+
+
+
+
+
+
+
+
 
 
 
